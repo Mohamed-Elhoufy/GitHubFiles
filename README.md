@@ -12,5 +12,6 @@ In every layer folder there is the inc folder for header include files
                                                              2- private file for microcontroller memory map of this driver 
                                                              3- interfacing file for all source file header
                                                      
-                                                     src has the program file of the driver     
+                                                     src has the program file of the driver
+                                                    
                                                        
