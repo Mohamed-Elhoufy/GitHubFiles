@@ -1,0 +1,3 @@
+SEG_program.c:12:13:Delay_ms	24	static,ignoring_inline_asm
+SEG_program.c:178:6:SEG_voidDisplay_D	24	static
+SEG_program.c:208:6:SEG_voidDisplay_H	24	static

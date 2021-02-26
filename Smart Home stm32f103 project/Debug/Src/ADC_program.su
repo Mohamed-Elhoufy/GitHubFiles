@@ -1,0 +1,7 @@
+ADC_program.c:12:6:ADC_voidInit	4	static
+ADC_program.c:60:6:ADC_voidChannelSample	16	static
+ADC_program.c:73:5:ADC_u16GetValue	24	static
+ADC_program.c:88:5:POT_VoltReadPercent	40	static
+ADC_program.c:96:5:POT_PercentRead	24	static
+ADC_program.c:102:5:LDR_RatioRead	24	static
+ADC_program.c:119:5:LDR_PercentRead	24	static
