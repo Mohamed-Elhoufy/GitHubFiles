@@ -1,2 +1,0 @@
-DMA_program.c:16:6:DMA1_voidChannelInit	4	static
-DMA_program.c:32:6:DMA1_voidChannelStart	24	static

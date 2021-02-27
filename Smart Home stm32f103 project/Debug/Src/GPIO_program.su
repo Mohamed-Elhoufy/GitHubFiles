@@ -1,7 +1,0 @@
-GPIO_program.c:242:6:DIO_InitPin	24	static
-GPIO_program.c:699:7:DIO_WritePin	24	static
-GPIO_program.c:740:18:DIO_ReadPin	24	static
-GPIO_program.c:760:6:DIO_TogglePin	24	static
-GPIO_program.c:791:6:DIO_WritePort	16	static
-GPIO_program.c:805:5:DIO_ReadPort	24	static
-GPIO_program.c:822:6:DIO_Init	16	static
