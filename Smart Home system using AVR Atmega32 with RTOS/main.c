@@ -3,14 +3,26 @@
 /*************************** Includes ******************************/
 #include "DIO_Interface.h"
 #include "LCD.h"
-#include "UART.h"#include "Sensors.h"#include "DC_Motor.h"#include "Keypad.h"#include "EEPROM.h"#include "EEPROM_Services.h"#include "WD_Timer.h"#include "Timers.h"#include "UART_Services.h"#include "string.h"
+#include "UART.h"
+#include "Sensors.h"
+#include "DC_Motor.h"
+#include "Keypad.h"
+#include "EEPROM.h"
+#include "EEPROM_Services.h"
+#include "WD_Timer.h"
+#include "Timers.h"
+#include "UART_Services.h"
+#include "string.h"
+
+
 /*Include OS header file*/
 #include "FreeRTOS.h"
 #include "task.h"
 #include "queue.h"
 #include "semphr.h"
 #include "event_groups.h"
-#include "SysManagment.h"
+
+#include "SysManagment.h"
 
 TaskHandle_t th_T_EnviroInterface;
 TaskHandle_t th_T_DisplayManagment;
@@ -22,9 +34,11 @@ EventGroupHandle_t	egEvents = NULL;
 EventGroupHandle_t	egEventsAppliance = NULL;
 /*Semaphores*/
 xSemaphoreHandle bsCheck;
-#include "SharedDef.h"
 
-SHApp_t	SHApp = {SS_PW_CHECK,"0000",0,0,0,0,0,0,0,'A','E'};
+#include "SharedDef.h"
+
+SHApp_t	SHApp = {SS_PW_CHECK,"0000",0,0,0,0,0,0,0,'A','E'};
+
 ///////////////////////////////////////////////////////////////////////////////////
 int main(void)
 {
